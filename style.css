@@ -2,7 +2,37 @@ body{
     background-color: #1abc9c;
     text-align: center;
 }
+
+h1{
+    text-align: center;
+}
+
+#keypad{
+    width:265px;
+    margin-left:auto;
+    margin-right: auto;
+}
 table{
-    background-color: #bdc3c7;
-    table-align: center;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    padding: 7px;
+}
+#display-bar{
+    font-family: 'Audiowide', cursive;
+    background-color: #ecf0f1;
+    height: 50px;
+    width: 240px;
+    margin: 3px;
+    font-size: 2em;
+    overflow:hidden;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+input[type=button]{
+    background-color: #95a5a6;
+    height: 50px;
+    width: 50px;
+    font-size: 1em;
+    border-radius: 10px;
+    margin:3px;
 }
